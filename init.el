@@ -8,3 +8,9 @@
 ;; of this file
 (setq backup-directory-alist
       (list (cons "." (expand-file-name "backup" user-emacs-directory))))
+
+
+;; Set up 'custom' system
+(setq custom-file
+      (expand-file-name "emacs-customizations.el" user-emacs-directory))
+(load custom-file)
