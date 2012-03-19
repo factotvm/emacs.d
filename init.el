@@ -27,3 +27,6 @@
 
 ;; Pick a theme
 (load-theme 'wombat)
+
+;; Set up additonal key bindings
+(global-set-key (kbd "M-SPC") 'anything)
